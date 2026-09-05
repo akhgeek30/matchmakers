@@ -1,0 +1,74 @@
+# Dependencies
+**/node_modules/
+**/.pnp/
+**/.pnp.js
+**/dist/
+**/out-tsc/
+**/.angular/
+**/.cache/
+*.tsbuildinfo
+
+# Java / Maven / Gradle build output (keep Maven and Gradle wrappers tracked)
+**/target/
+**/build/
+**/.gradle/
+*.class
+*.jar
+*.war
+*.ear
+!**/.mvn/wrapper/maven-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# Logs, runtime state, and temporary files
+**/logs/
+**/log/
+*.log
+*.log.*
+*.pid
+*.pid.*
+.attach_pid*
+**/.attach_pid*
+*.tmp
+*.bak
+*.swp
+*~
+.sass-cache/
+.eslintcache
+coverage/
+
+# Local configuration and secrets (commit only examples)
+.env
+.env.*
+!.env.example
+*.local
+local.properties
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.key
+*.pem
+**/src/main/resources/application-local.yml
+**/src/main/resources/application-local.yaml
+**/src/main/resources/application-local.properties
+
+# IDE / editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.factorypath
+.metadata/
+*.launch
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Root-level legacy deployment output
+/deploy/
